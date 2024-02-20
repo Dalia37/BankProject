@@ -165,7 +165,7 @@ public class BankTests extends Parameters {
 		System.out.println(deletbtns);
 		
 
-	    container.findElements(By.tagName("button")).get(CustomerID).click();
+	    container.findElements(By.tagName("button")).get(rand.nextInt(deletbtns)).click();
     	System.out.println("deleted");
 	
 	}
