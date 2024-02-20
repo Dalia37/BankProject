@@ -6,9 +6,8 @@
       <class name="TestCases.BankTests">
         <methods>
           <include name="AfterTest"/>
-          <include name="deposit"/>
+          <include name="deleteCustomer"/>
           <include name="setUP"/>
-          <include name="checkBalance"/>
         </methods>
       </class> <!-- TestCases.BankTests -->
     </classes>
